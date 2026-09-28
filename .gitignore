@@ -1,0 +1,15 @@
+# 临时与渲染产物
+_preview/
+*.tmp
+~$*.pptx
+~$*.potx
+~$*.docx
+
+# 操作系统
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
