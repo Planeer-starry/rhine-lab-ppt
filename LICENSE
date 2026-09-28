@@ -1,3 +1,20 @@
+﻿ 许可 / Licensing
+
+本仓库采用**拆分许可**：代码与设计资产适用不同条款。
+
+---
+
+## 1. 代码部分 —— MIT License
+
+适用路径：
+
+```
+scripts/
+```
+
+包括 `rhine-style.ps1`（渲染器）、`install-skill.ps1`（安装脚本）、`push-to-github.ps1`（推送脚本）。
+
+```
 MIT License
 
 Copyright (c) 2026 Planeer-starry
@@ -19,3 +36,67 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
+
+---
+
+## 2. 设计资产与文档 —— CC BY-NC 4.0
+
+适用路径：
+
+```
+references/     设计规范（design-tokens.md）
+templates/      母版（.pptx / .potx）与内容示例
+docs/           版式预览图
+SKILL.md        技能说明
+README.md       仓库说明
+```
+
+本部分采用 **Creative Commons Attribution-NonCommercial 4.0 International
+（CC BY-NC 4.0，署名—非商业性使用 4.0 国际）**。
+
+你可以自由地：
+
+- **共享** —— 以任何媒介或格式复制、发行本作品
+- **演绎** —— 修改、转换或以本作品为基础进行创作
+
+但必须遵守以下条件：
+
+- **署名** —— 必须给出适当的署名，提供指向本许可的链接，并说明是否作了修改。
+- **非商业性使用** —— 不得将本作品用于商业目的。
+- **不得增加额外限制** —— 不得适用法律条款或技术措施，限制他人做本许可允许的事。
+
+完整法律文本见：https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+---
+
+## 3. 来源与致谢
+
+本仓库的**设计语言**（暖象牙底 / 墨黑 / 香槟金、宽字距、发丝线、方块节点、
+深场网格等）是从一份**玩家仿作**的《莱茵生命 RHINE LAB》PPT 模板中拆解、
+提炼并重新实现而来的。
+
+- 该风格的原型出自游戏《明日方舟》（Arknights）中的虚构组织「莱茵生命」，
+  相关 IP 权利归其权利人所有。
+- 该 PPT 模板的具体作者未能确证；社区中可检索到的同类仿作包括
+  B 站与 GitHub 上的多个「仿莱茵生命」模板项目。
+
+因此：
+
+1. 本仓库对**自己编写的代码**授予 MIT，但对**从第三方模板提炼的设计资产**
+   不作商用授权 —— 这正是本部分采用 CC BY-NC 4.0 的原因。
+2. 若你是原始模板的作者并认为本仓库的使用方式不当，请通过 Issue 联系，
+   我们会立即调整或移除相关内容。
+3. 使用者若要将本项目的设计资产用于商业场景，请自行确认其权利来源。
+
+---
+
+## 4. 一句话总结
+
+| 你想做的事 | 代码（scripts/） | 设计资产（templates/ docs/ references/） |
+|---|---|---|
+| 自用、学习、改进 | ✅ 可以 | ✅ 可以 |
+| 分享给别人 | ✅ 可以（保留署名） | ✅ 可以（署名 + 非商业） |
+| 用在班级/社团演示 | ✅ 可以 | ✅ 可以 |
+| 打包卖钱 / 商业产品内置 | ✅ 可以 | ❌ 不可以 |
+| 改了之后闭源发布 | ✅ 可以 | ⚠️ 可以，但须署名且非商业 |
