@@ -1,0 +1,72 @@
+{
+  "title": "莱茵生命 RHINE LAB 风格母版",
+  "slides": [
+    {
+      "layout": "cover",
+      "title": "标题内容",
+      "subtitle": "SUBTITLE  /  副标题占位"
+    },
+    {
+      "layout": "agenda",
+      "kicker": "INDEX   /   目录",
+      "title": "内容目录",
+      "items": [
+        { "no": "01", "zh": "第一部分标题", "en": "PART ONE  TITLE" },
+        { "no": "02", "zh": "第二部分标题", "en": "PART TWO  TITLE" },
+        { "no": "03", "zh": "第三部分标题", "en": "PART THREE  TITLE" }
+      ]
+    },
+    {
+      "layout": "process",
+      "kicker": "FIGURE   /   图示",
+      "title": "阶段流程标题",
+      "stages": [
+        { "no": "01", "title": "阶段名称", "desc": "该阶段的关键动作说明，两行以内。" },
+        { "no": "02", "title": "阶段名称", "desc": "该阶段的关键动作说明，两行以内。" },
+        { "no": "03", "title": "阶段名称", "desc": "该阶段的关键动作说明，两行以内。" },
+        { "no": "04", "title": "阶段名称", "desc": "该阶段的关键动作说明，两行以内。" }
+      ],
+      "readout": "读解：用一句话点明结论，或给出下一步决策。",
+      "note": "单位 / 口径 / 来源：待填写"
+    },
+    {
+      "layout": "dark",
+      "title": "标题内容",
+      "subtitle": "CHAPTER  /  章节说明占位",
+      "label": "FILE  RECORD",
+      "card": ["file number: H-200", "from: rhodes island", "date: 2022-04-23"]
+    },
+    {
+      "layout": "statement",
+      "section": "SECTION  01",
+      "title": "页面标题占位",
+      "leadLabel": "LEAD  /  论点",
+      "lead": "一句主论点，\n占两到三行。",
+      "explain": "支撑句：说明依据、统计口径与适用边界，不复述标题。",
+      "panelTitle": "证据面板标题",
+      "rows": ["01   第一条证据", "02   第二条证据", "03   第三条证据"],
+      "note": "来源 / 口径：待填写"
+    },
+    {
+      "layout": "data",
+      "section": "DATA  01",
+      "title": "数据页标题占位",
+      "kicker": "单位：%   周期：待填写",
+      "bars": [
+        { "value": "136", "label": "项目一", "height": 94, "accent": false },
+        { "value": "152", "label": "项目二", "height": 120, "accent": true },
+        { "value": "118", "label": "项目三", "height": 72, "accent": false },
+        { "value": "173", "label": "项目四", "height": 140, "accent": false }
+      ],
+      "readout": "读解：指出最高值与异常点，并给出对应的下一步动作。",
+      "note": "来源：待填写   样本：待填写   统计窗口：待填写"
+    },
+    {
+      "layout": "closing",
+      "kicker": "THANK YOU  /  致谢",
+      "band": "联系与署名占位",
+      "mark": "RHINE LAB",
+      "note": "CONFIDENTIALITY: BUSINESS USE   ·   本页信息仅限内部使用"
+    }
+  ]
+}
